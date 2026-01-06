@@ -63,7 +63,7 @@ const ChatContainer = () => {
       const assistantMessage: Message = {
         id: (Date.now() + 1).toString(),
         role: "assistant",
-        content: data.response || data.message || data.text || JSON.stringify(data),
+        content: data.output || data.response || data.message || data.text || JSON.stringify(data),
       };
 
       setMessages((prev) => [...prev, assistantMessage]);
