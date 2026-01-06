@@ -10,7 +10,7 @@ interface Message {
   content: string;
 }
 
-const WEBHOOK_URL = "http://localhost:5678/webhook-test/mychatapp";
+const WEBHOOK_URL = "https://815290888ca7.ngrok-free.app/webhook-test/mychatapp";
 
 const ChatContainer = () => {
   const [messages, setMessages] = useState<Message[]>([
