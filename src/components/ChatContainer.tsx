@@ -10,7 +10,11 @@ interface Message {
   content: string;
 }
 
+<<<<<<< HEAD
 const WEBHOOK_URL = "https://deep-shadow-ai-workflow-production.up.railway.app/webhook/mychatapp";
+=======
+const WEBHOOK_URL = "https://815290888ca7.ngrok-free.app/webhook/mychatapp";
+>>>>>>> 6a1f640b4f47f55efafb89d4cd40cb9ab09832e3
 
 const ChatContainer = () => {
   const [messages, setMessages] = useState<Message[]>([
